@@ -20,10 +20,10 @@ class CheckPrimeNumberTest {
     }
 
     @Test
-    void check1ThenTrue() {
+    void check1ThenFalse() {
         int number = 1;
         boolean output = CheckPrimeNumber.check(number);
-        assertThat(output).isTrue();
+        assertThat(output).isFalse();
     }
 
     @Test
