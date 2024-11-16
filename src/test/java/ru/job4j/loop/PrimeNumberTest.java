@@ -16,7 +16,7 @@ class PrimeNumberTest {
     @Test
     void whenFinish15Then7() {
         int finish = 15;
-        int expected = 7;
+        int expected = 6;
         int output = PrimeNumber.calc(finish);
         assertThat(output).isEqualTo(expected);
     }
