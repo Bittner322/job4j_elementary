@@ -6,6 +6,7 @@ public class ArrayDefinition {
         String[] surnames = new String[100500];
         float[] prices = new float[40];
         String[] names = new String[4];
+        int[] numbers = new int[5];
 
         names[0] = "Михаил";
         names[1] = "Петр";
@@ -14,6 +15,14 @@ public class ArrayDefinition {
 
         for (String name : names) {
             System.out.println(name);
+        }
+
+        for (int i = 0; i < numbers.length; i++) {
+            numbers[i] = i * 2 + 3;
+        }
+
+        for (int number : numbers) {
+            System.out.println(number);
         }
 
         System.out.println("Размер массива ages равен: " + ages.length);
