@@ -22,9 +22,10 @@ public class ArrayDefinition {
         }
 
         for (int number : numbers) {
-            System.out.println(number);
+            System.out.print(number + " ");
         }
 
+        System.out.println();
         System.out.println("Размер массива ages равен: " + ages.length);
         System.out.println("Размер массива surnames равен: " + surnames.length);
         System.out.println("Размер массива prices равен: " + prices.length);
